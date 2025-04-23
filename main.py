@@ -15,7 +15,7 @@ riddles = [
     {"text": ru.RIDDLE_6, "answers": ru.ANSWERS_6}
 ]
 
-def slow_print(text, delay=0):
+def slow_print(text, delay=0.01):
 
     '''
     Prints text character by character with a delay.
